@@ -51,6 +51,7 @@
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
+                        <li>ShopSphere</li>
                         @php
                             $settings=DB::table('settings')->get();
                         @endphp                    
