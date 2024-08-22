@@ -38,14 +38,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-12">
-						<div class="about-img overlay">
-							<div class="button">
-								<a href="https://www.youtube.com/watch?v=7edcgCdiHVU" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>
-							</div>
-							<img src="@foreach($settings as $data) {{$data->photo}} @endforeach" alt="@foreach($settings as $data) {{$data->photo}} @endforeach">
-						</div>
-					</div>
+					
 				</div>
 			</div>
 	</section>
@@ -78,7 +71,7 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-lock"></i>
-						<h4>Sucure Payment</h4>
+						<h4>Secure Payment</h4>
 						<p>100% secure payment</p>
 					</div>
 					<!-- End Single Service -->
