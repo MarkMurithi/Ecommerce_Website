@@ -84,6 +84,7 @@ return [
         App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        \Safaricom\Mpesa\MpesaServiceProvider::class
 
     ],
 
@@ -132,6 +133,7 @@ return [
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'PayPal' => Srmklive\PayPal\Facades\PayPal::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'Mpesa'=> \Safaricom\Mpesa\MpesaServiceProvider::class
 
     ],
 

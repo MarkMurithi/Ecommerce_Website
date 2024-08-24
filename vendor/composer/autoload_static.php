@@ -92,6 +92,7 @@ class ComposerStaticInit0fe02967618b6ee54572c79b43d09b09
             'Svg\\' => 4,
             'Srmklive\\PayPal\\' => 16,
             'Spatie\\Newsletter\\' => 18,
+            'Safaricom\\Mpesa\\' => 16,
             'Sabberworm\\CSS\\' => 15,
         ),
         'R' => 
@@ -195,8 +196,8 @@ class ComposerStaticInit0fe02967618b6ee54572c79b43d09b09
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Whoops\\' => 
         array (
@@ -333,6 +334,10 @@ class ComposerStaticInit0fe02967618b6ee54572c79b43d09b09
         'Spatie\\Newsletter\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-newsletter/src',
+        ),
+        'Safaricom\\Mpesa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/safaricom/mpesa/src',
         ),
         'Sabberworm\\CSS\\' => 
         array (
@@ -4485,6 +4490,9 @@ class ComposerStaticInit0fe02967618b6ee54572c79b43d09b09
         'Sabberworm\\CSS\\Value\\URL' => __DIR__ . '/..' . '/sabberworm/php-css-parser/src/Value/URL.php',
         'Sabberworm\\CSS\\Value\\Value' => __DIR__ . '/..' . '/sabberworm/php-css-parser/src/Value/Value.php',
         'Sabberworm\\CSS\\Value\\ValueList' => __DIR__ . '/..' . '/sabberworm/php-css-parser/src/Value/ValueList.php',
+        'Safaricom\\Mpesa\\Facade\\Mpesa' => __DIR__ . '/..' . '/safaricom/mpesa/src/Facade/Mpesa.php',
+        'Safaricom\\Mpesa\\Mpesa' => __DIR__ . '/..' . '/safaricom/mpesa/src/Mpesa.php',
+        'Safaricom\\Mpesa\\MpesaServiceProvider' => __DIR__ . '/..' . '/safaricom/mpesa/src/MpesaServiceProvider.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -5620,6 +5628,7 @@ class ComposerStaticInit0fe02967618b6ee54572c79b43d09b09
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
         'phpDocumentor\\Reflection\\Utils' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/Utils.php',
+        'safaricom\\Mpesa\\TransactionCallbacks' => __DIR__ . '/..' . '/safaricom/mpesa/src/TransactionCallbacks.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
     );
 

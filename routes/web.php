@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PayController;
 
 
 
@@ -80,7 +81,8 @@ Route::post('/coupon-store','CouponController@couponStore')->name('coupon-store'
 Route::get('payment', 'PayPalController@payment')->name('payment');
 Route::get('cancel', 'PayPalController@cancel')->name('payment.cancel');
 Route::get('payment/success', 'PayPalController@success')->name('payment.success');
-
+Route::get('/pay' ,[PayController::class,'stk']);
+Route::get('payment', 'PayController@payment')->name('payment');
 
 
 // Backend section start
